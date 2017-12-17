@@ -78,23 +78,19 @@ class MysqlTwistedPipline(object):
     def process_item(self, item, spider):
         query = self.dbpool.runInteraction(self.do_insert, item)
         # 处理异常
-        query.addErrback(self.handle_error)
+        query.addErrback(self.handle_error, item, spider)
 
 
-    def handle_error(self, failure):
+    def handle_error(self, failure, item, spider):
         # 处理异步插入的异常
         print(failure)
 
     # 执行具体地插入
     def do_insert(self, cursor, item):
-        insert_sql = """
-                    insert into jobbole_article(title, url, url_object_id, front_image_url, front_image_path, 
-                        comment_nums, fav_nums, praise_nums, tags, content, create_date)
-                    values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
-                """
-        cursor.execute(insert_sql, (item["title"], item["url"], item["url_object_id"], item["front_image_url"],
-                                         item["front_image_path"], item["comment_nums"], item["fav_nums"],
-                                         item["praise_nums"], item["tags"], item["content"], item["create_date"]))
+
+        # 根据不同的item构建不同的sql语句
+        insert_sql, params = item.get_insert_sql()
+        cursor.execute(insert_sql, params)
 
 
 class JsonExporterPipeline(object):
