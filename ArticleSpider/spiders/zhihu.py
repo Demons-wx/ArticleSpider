@@ -7,7 +7,7 @@ import time
 from PIL import Image
 from urllib import parse
 from scrapy.loader import ItemLoader
-from ArticleSpider.items import ZhihuQuestionItem, ZhihuAnswerItem
+from items import ZhihuQuestionItem, ZhihuAnswerItem
 import datetime
 
 # 使用命令：scrapy genspider zhihu www.zhihu.com
