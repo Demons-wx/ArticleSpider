@@ -66,3 +66,11 @@ CREATE TABLE `lagou_job` (
   `crawl_time` datetime NOT NULL COMMENT '爬取时间',
   `crawl_update_time` datetime DEFAULT NULL COMMENT '更新时间'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='拉钩职位表';
+
+CREATE TABLE `proxy_ip` (
+  `ip` varchar(20) NOT NULL COMMENT 'ip地址',
+  `port` varchar(10) NOT NULL COMMENT '端口',
+  `speed` float DEFAULT NULL COMMENT '速度',
+  `proxy_type` varchar(5) DEFAULT NULL COMMENT 'http/https',
+  PRIMARY KEY (`ip`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='西刺网ip'
