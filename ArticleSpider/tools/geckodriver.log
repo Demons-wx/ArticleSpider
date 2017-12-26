@@ -281,3 +281,127 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 1514215641394	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zhihu.com/signin#signin"
 1514215641845	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1514301293999	geckodriver	INFO	geckodriver 0.19.1
+1514301294017	geckodriver	INFO	Listening on 127.0.0.1:50852
+1514301295063	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/xf/slx43t5d1v17h8gt4d1jn9g40000gn/T/rust_mozprofile.LEuBG9yyjWwD"
+1514301295929	Marionette	INFO	Enabled via --marionette
+2017-12-26 23:14:57.099 plugin-container[1042:116899] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7907, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-12-26 23:14:57.390 plugin-container[1042:116899] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7aab, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1514301297762	Marionette	INFO	Listening on port 50862
+1514301297831	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514301297890	Marionette	DEBUG	Register listener.js for window 2147483649
+1514301297906	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514301298962	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514301298962	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514301299208	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1514301298.0912"
+1514301299216	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1514301298.0912"
+2017-12-26 23:15:00.762 firefox-bin[1041:116668] IMKInputSession [0x13b471ca0 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x12f4f7280 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-12-26 23:15:06.142 firefox-bin[1041:116668] IMKInputSession [0x13b471ca0 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x12f4f7280 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+1514301314643	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1514301314667	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+2017-12-26 23:15:14.923 firefox-bin[1041:116668] IMKInputSession [0x13b471ca0 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x12f4f7280 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-12-26 23:15:15.024 firefox-bin[1041:116668] IMKInputSession [0x13b471ca0 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x12f4f7280 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-12-26 23:15:41.727 firefox-bin[1041:116668] IMKInputSession [0x13b471ca0 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x12f4f7280 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-12-26 23:15:41.768 firefox-bin[1041:116668] IMKInputSession [0x13b471ca0 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x12f4f7280 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-12-26 23:15:44.177 firefox-bin[1041:116668] IMKInputSession [0x13b471ca0 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x12f4f7280 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-12-26 23:15:51.785 firefox-bin[1041:116668] IMKInputSession [0x13b471ca0 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x12f4f7280 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-12-26 23:15:53.149 firefox-bin[1041:116668] IMKInputSession [0x13b471ca0 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x12f4f7280 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+1514301383514	geckodriver	INFO	geckodriver 0.19.1
+1514301383520	geckodriver	INFO	Listening on 127.0.0.1:51038
+1514301383641	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/xf/slx43t5d1v17h8gt4d1jn9g40000gn/T/rust_mozprofile.gVzAks4QKbYM"
+1514301384498	Marionette	INFO	Enabled via --marionette
+2017-12-26 23:16:24.671 firefox-bin[1041:116668] IMKInputSession [0x13b471ca0 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x12f4f7280 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-12-26 23:16:24.686 firefox-bin[1041:116668] IMKInputSession [0x13b471ca0 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x12f4f7280 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-12-26 23:16:25.902 plugin-container[1064:125770] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x763f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-12-26 23:16:26.092 plugin-container[1064:125770] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x1a8f, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1514301386355	Marionette	INFO	Listening on port 51046
+1514301386389	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514301386445	Marionette	DEBUG	Register listener.js for window 2147483649
+1514301386477	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514301387207	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514301387208	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514301387416	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1514301386.6553"
+1514301387421	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1514301386.6553"
+JavaScript error: https://g.alicdn.com/kissy/k/1.4.2/seed-min.js, line 51: TypeError: i is null
+JavaScript error: https://g.alicdn.com/tb/login/0.4.7/weibo/login/login.js, line 1: TypeError: KISSY.add is not a function
+JavaScript error: https://login.taobao.com/member/login.jhtml?from=wbfast&style=wbfast&goto=http%3A%2F%2Fweibo.com%2Fa%2Fbind%2Flogin%3Fentry%3Dtaobao%26sid%3D6fe5a17c5626b792ce63eca3f0233cdc, line 153: TypeError: S.getScript is not a function
+JavaScript error: https://login.taobao.com/member/login.jhtml?from=wbfast&style=wbfast&goto=http%3A%2F%2Fweibo.com%2Fa%2Fbind%2Flogin%3Fentry%3Dtaobao%26sid%3D6fe5a17c5626b792ce63eca3f0233cdc, line 9: TypeError: r.ready is not a function
+2017-12-26 23:16:40.194 firefox-bin[1063:125650] IMKInputSession [0x1313ee980 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x1244fd040 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-12-26 23:16:42.476 firefox-bin[1063:125650] IMKInputSession [0x1313ee980 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x1244fd040 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-12-26 23:16:42.527 firefox-bin[1063:125650] IMKInputSession [0x1313ee980 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x1244fd040 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+1514301402794	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
+1514301402801	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+2017-12-26 23:16:42.820 firefox-bin[1063:125650] IMKInputSession [0x1313ee980 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x1244fd040 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+1514301475444	geckodriver	INFO	geckodriver 0.19.1
+1514301475453	geckodriver	INFO	Listening on 127.0.0.1:51228
+1514301475559	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/xf/slx43t5d1v17h8gt4d1jn9g40000gn/T/rust_mozprofile.l7513BcrYzte"
+1514301476076	Marionette	INFO	Enabled via --marionette
+2017-12-26 23:17:56.959 plugin-container[1085:128440] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7e0b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-12-26 23:17:57.182 plugin-container[1085:128440] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7da3, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-12-26 23:17:57.871 firefox-bin[1084:128361] IMKInputSession [0x10befb310 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x134542fa0 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-12-26 23:17:57.886 firefox-bin[1084:128361] IMKInputSession [0x10befb310 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x134542fa0 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+1514301478082	Marionette	INFO	Listening on port 51235
+1514301478100	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514301478173	Marionette	DEBUG	Register listener.js for window 2147483649
+1514301478235	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514301479202	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514301479202	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514301479380	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1514301478.5307"
+1514301479388	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1514301478.5307"
+JavaScript error: https://login.taobao.com/member/login.jhtml?from=wbfast&style=wbfast&goto=http%3A%2F%2Fweibo.com%2Fa%2Fbind%2Flogin%3Fentry%3Dtaobao%26sid%3Ddf3f27c8bbde7b0e1c1d4b5ebe7aaef1, line 187: TypeError: umx is undefined
+2017-12-26 23:18:06.257 firefox-bin[1084:128361] IMKInputSession [0x10befb310 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x134542fa0 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-12-26 23:18:08.737 firefox-bin[1084:128361] IMKInputSession [0x10befb310 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x134542fa0 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-12-26 23:18:14.447 firefox-bin[1084:128361] IMKInputSession [0x10befb310 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x134542fa0 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-12-26 23:18:14.528 firefox-bin[1084:128361] IMKInputSession [0x10befb310 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x134542fa0 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+1514301494791	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: https://js2.t.sinajs.cn/t6/webim_prime/js/common/all.js?version=0619622284ebae1e, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t6/webim_prime/js/common/all.js?version=0619622284ebae1e, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t6/webim_prime/js/webim.js?v=1514301498408, line 139: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t6/webim_prime/js/webim.js?v=1514301498408, line 139: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t6/webim_prime/js/webim.js?v=1514301498408, line 172: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t6/webim_prime/js/webim.js?v=1514301498408, line 174: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t6/webim_prime/js/webim.js?v=1514301498408, line 198: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t6/webim_prime/js/webim.js?v=1514301498408, line 200: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t6/webim_prime/js/webim.js?v=1514301498408, line 207: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t6/webim_prime/js/webim.js?v=1514301498408, line 139: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t6/webim_prime/js/webim.js?v=1514301498408, line 174: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1514301815715	geckodriver	INFO	geckodriver 0.19.1
+1514301815722	geckodriver	INFO	Listening on 127.0.0.1:51552
+1514301816817	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/xf/slx43t5d1v17h8gt4d1jn9g40000gn/T/rust_mozprofile.NmQbdIZZzpBU"
+1514301817359	Marionette	INFO	Enabled via --marionette
+2017-12-26 23:23:38.175 plugin-container[1135:161300] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7f43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-12-26 23:23:38.341 plugin-container[1135:161300] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7f63, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1514301818659	Marionette	INFO	Listening on port 51561
+1514301818726	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514301818777	Marionette	DEBUG	Register listener.js for window 2147483649
+1514301818797	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-12-26 23:23:39.576 firefox-bin[1134:161117] IMKInputSession [0x12bfe13a0 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x1227cd040 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+1514301819648	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514301819648	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514301819864	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1514301818.9464"
+1514301819872	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1514301818.9464"
+2017-12-26 23:23:54.698 firefox-bin[1134:161117] IMKInputSession [0x12bfe13a0 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x1227cd040 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-12-26 23:23:54.931 firefox-bin[1134:161117] IMKInputSession [0x12bfe13a0 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x1227cd040 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-12-26 23:23:55.039 firefox-bin[1134:161117] IMKInputSession [0x12bfe13a0 presentFunctionRowItemTextInputViewWithEndpoint:completionHandler:] : [self textInputContext]=0x1227cd040 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+1514301835291	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: https://js2.t.sinajs.cn/t6/webim_prime/js/common/all.js?version=0619622284ebae1e, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t6/webim_prime/js/common/all.js?version=0619622284ebae1e, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t6/webim_prime/js/webim.js?v=1514301838556, line 139: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t6/webim_prime/js/webim.js?v=1514301838556, line 139: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t6/webim_prime/js/webim.js?v=1514301838556, line 172: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t6/webim_prime/js/webim.js?v=1514301838556, line 174: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t6/webim_prime/js/webim.js?v=1514301838556, line 198: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t6/webim_prime/js/webim.js?v=1514301838556, line 200: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t6/webim_prime/js/webim.js?v=1514301838556, line 207: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t6/webim_prime/js/webim.js?v=1514301838556, line 139: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t6/webim_prime/js/webim.js?v=1514301838556, line 174: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
