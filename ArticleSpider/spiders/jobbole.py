@@ -9,11 +9,37 @@ from urllib import parse
 from ArticleSpider.items import JobBoleArticleItem, ArticleItemLoader
 from ArticleSpider.utils.common import get_md5
 from scrapy.loader import ItemLoader
+from selenium import webdriver
+from scrapy.xlib.pydispatch import dispatcher
+from scrapy import signals
 
 class JobboleSpider(scrapy.Spider):
     name = 'jobbole'
     allowed_domains = ['blog.jobbole.com']
-    start_urls = ['http://blog.jobbole.com/all-posts/']
+    start_urls = ['http://blog.jobbole.com/wangxuan/']
+
+    # def __init__(self):
+    #     self.browser = webdriver.Firefox(executable_path="/Users/wangxuan/Downloads/geckodriver")
+    #     super(JobboleSpider, self).__init__()
+    #     dispatcher.connect(self.spider_closed, signals.spider_closed)
+    #
+    # def spider_closed(self, spider):
+    #     print("spider closed")
+    #     self.browser.close()
+
+
+    # 收集伯乐在线所有404的url以及404页面数
+    handle_httpstatus_list = [404]
+
+
+    def __init__(self):
+        self.fail_urls = []
+        dispatcher.connect(self.handle_spider_closed, signals.spider_closed)
+
+    def handle_spider_closed(self, spider, reason):
+        self.crawler.stats.set_value("failed_urls", ",".join(self.fail_urls))
+
+
 
     def parse(self, response):
 
@@ -23,6 +49,10 @@ class JobboleSpider(scrapy.Spider):
         :param response:
         :return:
         """
+
+        if response.status == 404:
+            self.fail_urls.append(response.url)
+            self.crawler.stats.inc_value("failed_url")
 
         # 1. 获取文章列表页中的具体文章url交给scrapy下载并进行解析函数进行具体字段的解析
         post_nodes = response.css("#archive .floated-thumb .post-thumb a")
